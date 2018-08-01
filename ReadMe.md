@@ -1,4 +1,4 @@
-# Webpack单页面打包
+# Webpack H5活动单页打包实践 - webpack 4X
 
 <br>
 
@@ -14,7 +14,7 @@ npm run dev
 npm run build
 
 # 开启node express服务,访问打包后目录
-node prod.server.js
+npm run server 或 npm run http-server
 ```
 
 ## Webpack配置的几个重点
@@ -371,6 +371,8 @@ node prod.server.js
      localhost:8888
      ```
 
+<br><br>
+
 > **http-server, 比自己配置一个express服务更简洁的方式, 去访问打包后的资源.**
   
   1. 安装依赖
@@ -386,5 +388,5 @@ node prod.server.js
   3. 访问路径
      
      ```bash
-     localhost:8080 或 http://127.0.0.1:8080 等.
+     localhost:8080 或 http://127.0.0.1:8080
      ```

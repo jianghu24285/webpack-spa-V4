@@ -7,7 +7,8 @@
     "test": "cross-env NODE_ENV=development webpack -w --mode development --colors --profile",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --colors --profile",
     "build": "cross-env NODE_ENV=production webpack --mode production --colors --profile",
-    "server": "http-server dist"
+    "server": "node prod.server.js",
+    "http-server": "http-server dist"
   },
   "author": "Eleven",
   "license": "ISC",
